@@ -8,12 +8,12 @@ stop_cmd="${name}_stop"
 
 transmissionvpn_start()
 {
-    /FreeNAS-Transmission-OpenVPN/run.sh
+    /usr/local/bin/run.sh
 }
 
 transmissionvpn_stop()
 {
-    /FreeNAS-Transmission-OpenVPN/stop.sh
+    /usr/local/bin/stop.sh
 }
 
 
